@@ -1,3 +1,25 @@
+ .wrapper {
+   width: 100vw;
+ }
+
+ #header, #topbar {
+   max-width: 1310px;
+   height: 95px !important;
+   background: #f82011;
+   margin: 0 auto;
+   align-items: flex-end;
+   padding-bottom: 15px;
+ }
+ #subscribe-button {
+   color: #f82011;
+ }
+
+ #Layer_1 {
+   fill: white;
+   width: 396px;
+   height: 60px;
+ }
+
  .nav-link a {
    color: white !important;
    background: black;
@@ -7,6 +29,12 @@
    justify-content: center;
  }
 
- a:hover {
-   color: red;
+ .nav-item a:hover {
+   color: red !important;
+ }
+
+ .nav-item a {
+   font-size: 1.2em;
+   color: black !important;
+   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
  }
