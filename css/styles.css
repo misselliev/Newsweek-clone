@@ -2,13 +2,11 @@
    width: 100vw;
  }
 
-#header {
-  max-width: 1310px;
-  height: 167px !important;
-  max-width: 1310px;
-  margin: 0 auto;
-
-}
+ #header {
+   max-width: 1310px;
+   height: 167px !important;
+   margin: 0 auto;
+ }
 
  #topbar {
    max-width: 1310px;
@@ -18,6 +16,7 @@
    align-items: flex-end;
    padding-bottom: 15px;
  }
+
  #subscribe-button {
    color: #f82011;
  }
@@ -31,7 +30,6 @@
  .nav-link a {
    color: white !important;
    background: black;
-
  }
 
  .navbar-collapse {
@@ -50,6 +48,56 @@
 
  /* =======================CONTAINER COLUMNS =========================== */
 
-#container-col {
-  max-width: 1310px;
-}
+ #container-col {
+   max-width: 1310px;
+   padding-top: 22px;
+ }
+
+ .top-story p {
+   font-size: 100%;
+   width: 100%;
+ }
+
+ .top-story h4 {
+   font-weight: bolder;
+ }
+
+ .top-story h6 {
+   text-transform: uppercase;
+   color: gray;
+ }
+
+ #story-1 {
+   width: 100%;
+   height: 229px;
+   background: url(../img/story.jpeg);
+   background-size: cover;
+ }
+
+ #col-middle {
+   padding: 0;
+   margin: 0 -20px;
+ }
+
+ #story-2 {
+   width: 100%;
+   height: 387px;
+   background: url(../img/story.jpeg);
+   background-size: cover;
+ }
+
+ #col-right {
+   padding-left: 90px;
+ }
+
+ .middle-story {
+   margin: 0 -35px;
+ }
+
+ .col-left-style {
+   padding-right: 15%;
+ }
+
+ .left-related {
+   padding: 8px 0;
+ }
