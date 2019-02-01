@@ -1,0 +1,12 @@
+ .nav-link a {
+   color: white !important;
+   background: black;
+ }
+
+ .navbar-collapse {
+   justify-content: center;
+ }
+
+ a:hover {
+   color: red;
+ }
