@@ -49,13 +49,13 @@
  /* =======================CONTAINER COLUMNS =========================== */
 
  #container-col {
-   max-width: 1310px;
-   padding-top: 22px;
- }
+}
 
- .top-story p {
-   font-size: 100%;
-   width: 100%;
+.top-story p {
+  font-size: 100%;
+  width: 100%;
+  max-width: 1310px;
+  padding-top: 22px;
  }
 
  .top-story h4 {
@@ -87,7 +87,7 @@
  }
 
  #col-right {
-   padding-left: 90px;
+   padding-left: 60px;
  }
 
  .middle-story {
