@@ -2,7 +2,15 @@
    width: 100vw;
  }
 
- #header, #topbar {
+#header {
+  max-width: 1310px;
+  height: 167px !important;
+  max-width: 1310px;
+  margin: 0 auto;
+
+}
+
+ #topbar {
    max-width: 1310px;
    height: 95px !important;
    background: #f82011;
@@ -23,6 +31,7 @@
  .nav-link a {
    color: white !important;
    background: black;
+
  }
 
  .navbar-collapse {
@@ -38,3 +47,9 @@
    color: black !important;
    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
  }
+
+ /* =======================CONTAINER COLUMNS =========================== */
+
+#container-col {
+  max-width: 1310px;
+}
