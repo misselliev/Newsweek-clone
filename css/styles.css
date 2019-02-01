@@ -48,53 +48,53 @@
 
  /* =======================CONTAINER COLUMNS =========================== */
 
- #container-col {
+ #container-main {
    max-width: 1310px;
    padding-top: 22px;
  }
 
- .top-story p {
+ .article-columns p {
    font-size: 100%;
    width: 100%;
  }
 
- .top-story h4 {
+ .article-columns h4 {
    font-weight: bolder;
  }
 
- .top-story h6 {
+ .article-columns h6 {
    text-transform: uppercase;
    color: gray;
  }
 
- #story-1 {
+ #left-art-1{
    width: 100%;
    height: 229px;
    background: url(../img/story.jpeg);
    background-size: cover;
  }
 
- #col-middle {
+ #column-center {
    padding: 0;
    margin: 0 -20px;
  }
 
- #story-2 {
+ #center-art-1 {
    width: 100%;
    height: 387px;
    background: url(../img/story.jpeg);
    background-size: cover;
  }
 
- #col-right {
+ #column-right {
    padding-left: 90px;
  }
 
- .middle-story {
+ .center-article {
    margin: 0 -35px;
  }
 
- .col-left-style {
+ .column-left {
    padding-right: 15%;
  }
 
