@@ -1,0 +1,129 @@
+@media only screen and (max-width: 768px) {
+  #container-main {
+    max-width: 98vw;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .column-left {
+    padding: 0;
+  }
+  .left-article {
+    max-height: 100%;
+    min-width: 246px;
+  }
+  #left-art-1 {
+    width: 100%;
+    height: 492px;
+    background: url(../img/picture-1.jpg);
+    background-size: cover;
+  }
+  #left-art-2 {
+    width: 100%;
+    height: 492px;
+    background: url(../img/ele4.jpeg);
+    background-size: cover;
+  }
+  #left-art-3 {
+    width: 100%;
+    height: 492px;
+    background: url(../img/ele3.jpeg);
+    background-size: cover;
+  }
+  #left-art-4 {
+    width: 100%;
+    height: 492px;
+    background: url(../img/ele2.jpeg);
+    background-size: cover;
+  }
+  #column-center {
+    padding: 0;
+    margin: 0;
+    order: 1;
+    display: flex;
+    width: 98vw;
+  }
+  .center-article {
+    margin: 0 5px;
+  }
+  #center-art-1 {
+    background: url(../img/center.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 492px;
+    max-height: 393px;
+    min-width: 370px;
+    min-height: 247px;
+  }
+  #center-more-pic1 {
+    width: 258px;
+    height: 172px;
+    background: url(../img/img-1.jpg);
+    background-size: cover;
+  }
+  #center-more-pic2 {
+    width: 258px;
+    height: 172px;
+    background: url(../img/ce1.jpeg);
+    background-size: cover;
+  }
+  #center-more-pic3 {
+    width: 258px;
+    height: 172px;
+    background: url(../img/ce2.jpeg);
+    background-size: cover;
+  }
+  #center-more-pic4 {
+    width: 258px;
+    height: 172px;
+    background: url(../img/ce3.jpeg);
+    background-size: cover;
+  }
+  #center-more-pic5 {
+    width: 258px;
+    height: 172px;
+    background: url(../img/ce5.jpeg);
+    background-size: cover;
+  }
+  #center-more-pic6 {
+    width: 258px;
+    height: 172px;
+    background: url(../img/ce4.jpeg);
+    background-size: cover;
+  }
+  #center-more-pic7 {
+    width: 258px;
+    height: 172px;
+    background: url(../img/ce6.jpeg);
+    background-size: cover;
+  }
+  #center-more-pic8 {
+    width: 258px;
+    height: 172px;
+    background: url(../img/ce7.jpeg);
+    background-size: cover;
+  }
+  #center-more-pic9 {
+    width: 258px;
+    height: 172px;
+    background: url(../img/ce9.jpeg);
+    background-size: cover;
+  }
+  .center-more-text {
+    margin-left: 15px;
+  }
+  #columna-izq {
+    display: flex;
+    flex-flow: column nowrap;
+    order: 2;
+    width: 49vw;
+  }
+  #column-right {
+    padding-left: 15px;
+  }
+  .right-picture-bottom {
+    width: 258px;
+    height: 172px;
+  }
+}
