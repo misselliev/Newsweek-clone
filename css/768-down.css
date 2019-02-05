@@ -254,6 +254,15 @@
   }
   #bottom-logo{
     display: flex;
+    flex-flow: row nowrap;
+  }
+  .brand{
+    display: flex;
+  }
+  #footer-p{
+    display: flex;
+    height: .8em;
+    align-self:flex-end;
   }
   .footer-social-nav{
     display: flex;
