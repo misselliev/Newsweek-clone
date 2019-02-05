@@ -303,7 +303,9 @@
   color: gray;
   max-width: 1310px;
   margin: 0 auto;
-
+}
+.footer-box{
+  border-bottom: 1px solid #dee2e6;
 }
 
 #footer-img {
@@ -313,9 +315,16 @@
   height: 36px;
   display: inline-block;
 }
-
+.brand{
+color: #f82011;
+font-size: 2.5em;
+font-weight: bolder;
+display: inline;
+font-family: 'Alfa Slab One', cursive;
+}
 #footer-p {
-  display: inherit;
+  display: inline-block;
+  font-size:.8em;
 }
 
 #bottom-logo {
@@ -325,5 +334,8 @@
 .nav-link {
   font-size: .8em;
   margin-bottom: 0;
+}
+.separator{
+  border-right: 1px solid #dee2e6;
 }
 

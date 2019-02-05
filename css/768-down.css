@@ -164,4 +164,32 @@
     width: 258px;
     height: 172px;
   }
+
+  /*FOOTER STYLES*/
+  #footer-box{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #first{
+    padding-left: 0;
+  }
+  #bottom-logo{
+    display: flex;
+  }
+  .footer-social-nav{
+    display: flex;
+  }
+  .nav-link, i{
+    padding: 0;
+  }
+  #site-map{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .footer-nav-left{
+    display: flex;
+  }
+  .footer-nav-right{
+    display: flex;
+  }
 }
