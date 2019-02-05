@@ -245,39 +245,39 @@
     margin: 10px 0;
   }
   /* ============= FOOTER STYLES ===========*/
-  #footer-box{
+  #footer-box {
     display: flex;
     flex-flow: row wrap;
   }
-  #first{
+  #first {
     padding-left: 0;
   }
-  #bottom-logo{
+  #bottom-logo {
     display: flex;
     flex-flow: row nowrap;
   }
-  .brand{
+  .brand {
     display: flex;
   }
-  #footer-p{
+  #footer-p {
     display: flex;
     height: .8em;
-    align-self:flex-end;
+    align-self: flex-end;
   }
-  .footer-social-nav{
+  .footer-social-nav {
     display: flex;
   }
-  .nav-link, i{
+  .nav-link, i {
     padding: 0;
   }
-  #site-map{
+  #site-map {
     display: flex;
     flex-flow: row wrap;
   }
-  .footer-nav-left{
+  .footer-nav-left {
     display: flex;
   }
-  .footer-nav-right{
+  .footer-nav-right {
     display: flex;
   }
 }

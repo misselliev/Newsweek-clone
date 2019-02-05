@@ -96,12 +96,11 @@
     display: none;
   }
   /*FOOTER STYLES*/
-  #site-map{
+  #site-map {
     display: flex;
     flex-flow: row wrap;
   }
   .footer-nav-left, .footer-nav-right {
     display: flex;
   }
-
 }
