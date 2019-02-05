@@ -9,11 +9,13 @@
     display: none;
   }
   #logo {
-    height: 24px;
-    width: 132px;
     display: flex;
     align-self: center;
     position: absolute;
+    background: url(../img/newsweek.png);
+    background-size: cover;
+    width: 132px;
+    height: 24px;
   }
   #topbar {
     width: 100%;
