@@ -1,21 +1,28 @@
- .wrapper {
-   width: 100vw;
- }
+.wrapper {
+  width: 100vw;
+}
 
- #header {
-   max-width: 1310px;
-   height: 167px !important;
-   margin: 0 auto;
- }
+#header {
+  max-width: 1310px;
+  height: 167px !important;
+  margin: 0 auto;
+}
 
- #topbar {
-   max-width: 1310px;
-   height: 95px !important;
-   background: #f82011;
-   margin: 0 auto;
-   align-items: flex-end;
-   padding-bottom: 15px;
- }
+#topbar {
+  max-width: 1310px;
+  height: 95px !important;
+  background: #f82011;
+  margin: 0 auto;
+  align-items: flex-end;
+  padding-bottom: 15px;
+}
+
+#logo{
+  background: url(../img/Newsweek_Logo.svg);
+  background-size:cover;
+  width: 396px;
+  height: 60px;
+}
 
  #subscribe-button {
    color: #f82011;
