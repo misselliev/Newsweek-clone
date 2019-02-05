@@ -287,18 +287,76 @@
  }
 
  /* ================== IN THE MAG SECTION ======================== */
+
  .in-the-mag-section {
    order: 3;
    justify-content: space-between;
    flex-flow: row wrap;
    width: 100%;
+ }
+
+ .in-the-mag-art {
+   width: 22%;
+   height: auto;
+ }
+
+ .itm-red-title {
    background: #f82011;
+   font-weight: bolder;
+   color: white;
+   font-size: 1em;
+   padding: 3px;
  }
- .itm-book  img {
-   width: 23%;
-   max-height: 387px;
+
+ .itm-pic {
+   width: 100%;
+   height: 290px;
+   min-width: 214px;
+   margin: 10px 0;
  }
+
 
  .itm-title {
    width: 100%;
+   text-align: center;
+ }
+
+ #itm-1 {
+   background: url(../img/mag1.jpeg);
+   background-position: center;
+ }
+
+ #itm-2 {
+   background: url(../img/mag2.jpeg);
+   background-position: center;
+ }
+
+ #itm-3 {
+   background: url(../img/mag3.jpeg);
+   background-position: center;
+ }
+
+ #itm-4 {
+   background: url(../img/mag4.jpeg);
+   background-position: center;
+ }
+
+ #itm-5 {
+   background: url(../img/mag5.jpeg);
+   background-position: center;
+ }
+
+ #itm-6 {
+   background: url(../img/mag6.jpeg);
+   background-position: center;
+ }
+
+ #itm-7 {
+   background: url(../img/mag7.jpg);
+   background-position: center;
+ }
+
+ #itm-8 {
+   background: url(../img/mag8.jpeg);
+   background-position: center;
  }
