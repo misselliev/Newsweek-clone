@@ -293,6 +293,7 @@
    justify-content: space-between;
    flex-flow: row wrap;
    width: 100%;
+   margin-bottom: 40px;
  }
 
  .in-the-mag-art {
@@ -314,7 +315,6 @@
    min-width: 214px;
    margin: 10px 0;
  }
-
 
  .itm-title {
    width: 100%;
@@ -360,3 +360,75 @@
    background: url(../img/mag8.jpeg);
    background-position: center;
  }
+
+ /* ============================= FEATURING ARTICLES ============================ */
+ #feat-slides {
+   order: 10;
+ }
+ #feat-slides h6 {
+   text-align: center;
+  color: black;
+  font-size: 1.1em;
+  font-weight: bolder;
+ }
+ #feat-slides h4 {
+  color: black;
+  font-size: 1.1em;
+  font-weight: bolder;
+ }
+ .feat-content {
+  flex-wrap: wrap;
+ }
+.feat-article {
+  width: 32%;
+  height: auto;
+}
+ .feat-art-image {
+  max-height: 264px;
+  min-width: 226px;
+  min-height: 150px;
+  margin: 10px 0;
+}
+
+#feat-art-1 {
+  width: 100%;
+  height: 264px;
+  background: url(../img/f1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+#feat-art-2 {
+  width: 100%;
+  height: 264px;
+  background: url(../img/f2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+#feat-art-3 {
+  width: 100%;
+  height: 264px;
+  background: url(../img/f3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#feat-art-4 {
+  width: 100%;
+  height: 264px;
+  background: url(../img/f4.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+#feat-art-5 {
+  width: 100%;
+  height: 264px;
+  background: url(../img/f5.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+#feat-art-6 {
+  width: 100%;
+  height: 264px;
+  background: url(../img/f6.jpeg);
+  background-size: cover;
+  background-position: center;
+}

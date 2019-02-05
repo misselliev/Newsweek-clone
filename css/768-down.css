@@ -150,46 +150,58 @@
     background-position: center;
     background-size: cover;
   }
- 
   #itm-2 {
     background: url(../img/mag2.jpeg);
     background-position: center;
     background-size: cover;
   }
- 
   #itm-3 {
     background: url(../img/mag3.jpeg);
     background-position: center;
     background-size: cover;
   }
- 
   #itm-4 {
     background: url(../img/mag4.jpeg);
     background-position: center;
     background-size: cover;
   }
- 
   #itm-5 {
     background: url(../img/mag5.jpeg);
     background-position: center;
     background-size: cover;
   }
- 
   #itm-6 {
     background: url(../img/mag6.jpeg);
     background-position: center;
     background-size: cover;
   }
- 
   #itm-7 {
     background: url(../img/mag7.jpg);
     background-position: center;
     background-size: cover;
   }
- 
   #itm-8 {
     background: url(../img/mag8.jpeg);
     background-position: center;
     background-size: cover;
+  }
+  /* ==================== SLIDES SECTION =================== */
+  #itm-section {
+    order: 3;
+    justify-content: space-between;
+    flex-flow: column nowrap !important;
+    width: 100%;
+  }
+  .feat-article {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .feat-art-image {
+    width: 100%;
+    height: 491px;
+    min-height: 491px;
+    max-height: 247px;
+    margin: 10px 0;
   }
 }
