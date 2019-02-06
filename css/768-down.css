@@ -96,67 +96,92 @@
     min-width: 370px;
     min-height: 247px;
   }
+  .center-more-position{
+    display: flex;
+    flex-flow: row nowrap;
+  }
   #center-more-pic1 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/img-1.jpg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic2 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce1.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic3 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce2.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic4 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce3.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic5 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce5.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic6 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce4.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic7 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce6.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic8 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce7.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic9 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce9.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   .center-more-text {
     margin-left: 15px;
+    display: flex;
+    flex-flow: row wrap;
   }
+
   #columna-izq {
     display: flex;
     flex-flow: column nowrap;
-    order: 2;
+    order: 1;
     width: 49vw;
   }
   #column-right {
@@ -224,6 +249,16 @@
     background: url(../img/mag8.jpeg);
     background-position: center;
     background-size: cover;
+  }
+  /* ================= EDITOR'S PICK SECTION ============ */
+  .editors-art {
+    width: 100%;
+    height: auto;
+  }
+  .editor-art-image {
+    max-width: 737px;
+    min-height: 491px;
+    margin: 10px 0;
   }
   /* ==================== SLIDES SECTION =================== */
   #itm-section {

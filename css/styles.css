@@ -201,6 +201,11 @@
    padding-left: 80px;
  }
 
+ #column-right h6 {
+   padding-top: 30px;
+   font-weight: bold;
+ }
+
  .center-article {
    margin: 0 -35px;
  }
@@ -313,13 +318,17 @@
  .itm-pic {
    width: 100%;
    height: 290px;
-   min-width: 214px;
+   min-width: 163px;
    margin: 10px 0;
  }
 
  .itm-title {
    width: 100%;
    text-align: center;
+   padding-top: 30px;
+   color: black;
+   font-size: 1.1em;
+   font-weight: bolder;
  }
 
  #itm-1 {
@@ -466,6 +475,7 @@
    color: black;
    font-size: 1.1em;
    font-weight: bolder;
+   margin-top: 30px;
  }
 
  #feat-slides h4 {

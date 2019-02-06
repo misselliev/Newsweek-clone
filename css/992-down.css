@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) and (max-width:992px) {
+@media only screen and (min-width: 768px) and (max-width:992px) {
   .wrapper {
     width: 100%;
   }
@@ -94,6 +94,29 @@
   }
   #center-6, #center-7, #center-8 {
     display: none;
+  }
+  .center-more-position {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  [id*=center-more-pic] {
+    display: flex;
+  }
+  .center-more-text {
+    margin-left: 15px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  /* ================= EDITOR'S PICK SECTION ============ */
+  .editors-art {
+    width: 49%;
+    height: auto;
+  }
+  .editor-art-image {
+    max-height: 236px;
+    min-width: 354px;
+    min-height: 140px;
+    margin: 10px 0;
   }
   /*FOOTER STYLES*/
   #site-map {
