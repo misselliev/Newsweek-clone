@@ -101,6 +101,7 @@
   }
   [id*=center-more-pic] {
     display: flex;
+    object-fit: contain;
   }
   .center-more-text {
     margin-left: 15px;

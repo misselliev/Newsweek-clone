@@ -36,9 +36,7 @@
     padding: 0 6px;
     font-size: .9em;
   }
-  /* #button-box{
-  align-items: start;
-} */
+
   #container-main {
     max-width: 98vw;
     padding-top: 20px;
@@ -96,10 +94,10 @@
     min-width: 370px;
     min-height: 247px;
   }
-  .center-more-position{
+  /* .center-more-position{
     display: flex;
     flex-flow: row nowrap;
-  }
+  } */
   #center-more-pic1 {
     width: 135px;
     height: 90px;
@@ -114,7 +112,7 @@
     background: url(../img/ce1.jpeg);
     background-size: cover;
     background-position: center;
-    display: flex;
+    /* display: flex; */
   }
   #center-more-pic3 {
     width: 135px;

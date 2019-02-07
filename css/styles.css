@@ -133,7 +133,10 @@
  .center-more-text {
    margin-left: 15px;
  }
-
+.center-more-image{
+  width: 135px;
+  height: 90px;
+}
  #center-more-pic1 {
    width: 135px;
    height: 90px;
