@@ -472,7 +472,7 @@
  /* ============================= FEATURING SECTION ============================ */
 
  #feat-slides {
-   order: 5;
+   order: 6;
  }
 
  #feat-slides h6 {
@@ -556,6 +556,7 @@
  /* ==================== OTHERS ART ===================*/
 
  .others-section {
+   order:7;
    width: 100%;
    margin-top: 30px;
  }
