@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) and (max-width:992px) {
+@media only screen and (min-width: 768px) and (max-width:992px) {
   .wrapper {
     width: 100%;
   }
@@ -42,7 +42,7 @@
     padding: 0 6px;
     font-size: .9em;
   }
-  /*CONTAINER*/
+  /* =================  CONTAINER ====================*/
   #container-main {
     max-width: 917px;
     padding-top: 20px;
@@ -94,6 +94,19 @@
   }
   #center-6, #center-7, #center-8 {
     display: none;
+  }
+  .center-more-position {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  [id*=center-more-pic] {
+    display: flex;
+    object-fit: contain;
+  }
+  .center-more-text {
+    margin-left: 15px;
+    display: flex;
+    flex-flow: row wrap;
   }
   /* ================= EDITOR'S PICK SECTION ============ */
   .editors-art {

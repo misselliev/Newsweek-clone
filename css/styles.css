@@ -17,14 +17,15 @@
    padding-bottom: 15px;
  }
 
- #subscribe-button {
-   color: #f82011;
+ #logo {
+   background: url(../img/Newsweek_Logo.svg);
+   background-size: cover;
+   width: 396px;
+   height: 82px;
  }
 
- #Layer_1 {
-   fill: white;
-   width: 396px;
-   height: 60px;
+ #subscribe-button {
+   color: #f82011;
  }
 
  .nav-link a {
@@ -131,6 +132,11 @@
 
  .center-more-text {
    margin-left: 15px;
+ }
+
+ .center-more-image {
+   width: 135px;
+   height: 90px;
  }
 
  #center-more-pic1 {

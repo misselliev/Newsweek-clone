@@ -9,11 +9,13 @@
     display: none;
   }
   #logo {
-    height: 24px;
-    width: 132px;
     display: flex;
     align-self: center;
     position: absolute;
+    background: url(../img/newsweek.png);
+    background-size: cover;
+    width: 132px;
+    height: 24px;
   }
   #topbar {
     width: 100%;
@@ -34,9 +36,6 @@
     padding: 0 6px;
     font-size: .9em;
   }
-  /* #button-box{
-  align-items: start;
-} */
   #container-main {
     max-width: 98vw;
     padding-top: 20px;
@@ -95,67 +94,86 @@
     min-height: 247px;
   }
   #center-more-pic1 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/img-1.jpg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic2 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce1.jpeg);
     background-size: cover;
+    background-position: center;
   }
   #center-more-pic3 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce2.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic4 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce3.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic5 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce5.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic6 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce4.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic7 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce6.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic8 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce7.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   #center-more-pic9 {
-    width: 258px;
-    height: 172px;
+    width: 135px;
+    height: 90px;
     background: url(../img/ce9.jpeg);
     background-size: cover;
+    background-position: center;
+    display: flex;
   }
   .center-more-text {
     margin-left: 15px;
+    display: flex;
+    flex-flow: row wrap;
   }
   #columna-izq {
     display: flex;
     flex-flow: column nowrap;
-    order: 2;
-    width: 49vw;
+    order: 1;
+    width: 100vw;
   }
   #column-right {
     padding-left: 15px;
@@ -253,18 +271,15 @@
     margin: 10px 0;
   }
   /* ============= OTHERS STYLES ===========*/
-
   .others-art {
     flex-flow: column wrap;
   }
- 
   .others-article {
     margin-top: 10px;
     width: 100%;
     height: auto;
     padding-bottom: 10px;
   }
-
   .others-img {
     width: 100%;
     height: auto;
@@ -273,8 +288,6 @@
     min-width: 100%;
     max-height: 257px;
   }
- 
- 
   /* ============= FOOTER STYLES ===========*/
   #footer-box {
     display: flex;
@@ -285,6 +298,15 @@
   }
   #bottom-logo {
     display: flex;
+    flex-flow: row nowrap;
+  }
+  .brand {
+    display: flex;
+  }
+  #footer-p {
+    display: flex;
+    height: .8em;
+    align-self: flex-end;
   }
   .footer-social-nav {
     display: flex;
