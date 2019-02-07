@@ -1,466 +1,715 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Newsweek</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/992-down.css" />
+    <link rel="stylesheet" href="css/768-down.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Alfa+Slab+One"
+      rel="stylesheet"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Newsweek</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/992-down.css">
-  <link rel="stylesheet" href="css/768-down.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
-</head>
+  <body>
+    <div class="wrapper">
+      <div id="header">
+        <nav
+          class="navbar navbar-dark justifity-content-space-between d-flex"
+          id="topbar"
+        >
+          <div class="navbar-nav text-uppercase align-items-end">
+            <a
+              class="nav-link font-weight-light text-white"
+              href="#"
+              id="date-top"
+            >
+              Fri, Feb 01, 2019</a
+            >
+          </div>
 
-<body>
-  <div class="wrapper">
+          <div id="logo" class="d-flex"></div>
 
-    <div id="header">
-      <nav class="navbar navbar-dark justifity-content-space-between d-flex" id="topbar">
+          <div class="navbar-nav btn-group d-flex flex-row" id="button-box">
+            <button
+              type="button"
+              class="btn rounded-0 text-white font-weight-bold"
+              id="signin-button"
+            >
+              SIGN IN
+            </button>
+            <button
+              type="button"
+              class="btn btn-light rounded-0 font-weight-bold"
+              id="subscribe-button"
+            >
+              SUBSCRIBE <i class="fas fa-chevron-right"></i>
+            </button>
+            <button
+              type="button"
+              class="btn rounded-0 text-white font-weight-bold"
+              id="dropdown-top"
+            >
+              <i class="fas fa-bars text-white"></i>
+            </button>
+          </div>
+        </nav>
 
-        <div class="navbar-nav text-uppercase align-items-end">
-          <a class="nav-link font-weight-light text-white" href="#" id="date-top">
-            Fri, Feb 01, 2019</a>
-        </div>
-
-
-        <div id="logo" class="d-flex"></div>
-
-        <div class="navbar-nav btn-group d-flex flex-row" id="button-box">
-          <button type="button" class="btn rounded-0 text-white font-weight-bold" id="signin-button">
-            SIGN IN
-          </button>
-          <button type="button" class="btn btn-light rounded-0 font-weight-bold" id="subscribe-button">
-            SUBSCRIBE <i class="fas fa-chevron-right"></i>
-          </button>
-          <button type="button" class="btn rounded-0 text-white font-weight-bold" id="dropdown-top">
-            <i class="fas fa-bars text-white"></i>
-          </button>
-        </div>
-      </nav>
-
-
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 border-bottom" id="sections-navbar">
-        <ul class="navbar-nav collapse navbar-collapse nav-justified font-weight-bold" id="sections-nav">
-          <li class="nav-item">
-            <a href="#" class="nav-link border-right">U.S.</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link border-right">World</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link border-right">Business</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link border-right">Tech & Science</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link border-right">Culture</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link border-right">Sports</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link border-right">Health</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link border-right">Opinion</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Ndelible</a>
-          </li>
-          <li class="nav-item">
-            <div class="input-group" id="search-form">
-              <input type="text" class="form-control border-0" placeholder="Search">
-              <div class="input-group-append">
-                <button class="btn btn-outline-secondary border-0" type="button"><i class="fas fa-search fa-lg"></i></button>
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-white p-0 border-bottom"
+          id="sections-navbar"
+        >
+          <ul
+            class="navbar-nav collapse navbar-collapse nav-justified font-weight-bold"
+            id="sections-nav"
+          >
+            <li class="nav-item">
+              <a href="#" class="nav-link border-right">U.S.</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link border-right">World</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link border-right">Business</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link border-right">Tech & Science</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link border-right">Culture</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link border-right">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link border-right">Health</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link border-right">Opinion</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Ndelible</a>
+            </li>
+            <li class="nav-item">
+              <div class="input-group" id="search-form">
+                <input
+                  type="text"
+                  class="form-control border-0"
+                  placeholder="Search"
+                />
+                <div class="input-group-append">
+                  <button
+                    class="btn btn-outline-secondary border-0"
+                    type="button"
+                  >
+                    <i class="fas fa-search fa-lg"></i>
+                  </button>
+                </div>
               </div>
-            </div>
-          </li>
-        </ul>
-      </nav>
-    </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-
-    <div class="container d-flex" id="container-main">
-      <div class="row article-columns justify-content-between d-flex">
-        <div id="columna-izq" class="col-sm-12 col-md-6 col-lg-4 order-1">
-          <h6>Lorem ipsum dolor</h6>
-          <div class="column-left">
-            <div id="left-art-1" class="left-article"></div>
-            <h4>Lorem, ipsum</h4>
-            <p>Dolore sint aute non labore anim est et. Voluptate sunt nostrud adipisicing velit eu labore. Aliquip ea
-              ut
-              est exercitation.</p>
-            <div>
-              <h5 class="border-top border-bottom left-related">Lorem ipsum dolor sit</h5>
-            </div>
-          </div>
-          <div class="column-left">
-            <div id="left-art-2" class="left-article"></div>
-            <h4>Lorem, ipsum</h4>
-            <p>Dolore sint aute non labore anim est et. Voluptate sunt nostrud adipisicing velit eu labore. Aliquip ea
-              ut
-              est exercitation.</p>
-            <div>
-              <h5 class="border-top border-bottom left-related">Lorem ipsum dolor sit</h5>
-            </div>
-          </div>
-          <div class="column-left">
-            <div id="left-art-3" class="left-article"></div>
-            <h4>Lorem, ipsum</h4>
-            <p>Dolore sint aute non labore anim est et. Voluptate sunt nostrud adipisicing velit eu labore. Aliquip ea
-              ut
-              est exercitation.</p>
-            <div>
-              <h5 class="border-top border-bottom left-related">Lorem ipsum dolor sit</h5>
-            </div>
-          </div>
-          <div class="column-left">
-            <div id="left-art-4" class="left-article"></div>
-            <h4>Lorem, ipsum</h4>
-            <p>Dolore sint aute non labore anim est et. Voluptate sunt nostrud adipisicing velit eu labore. Aliquip ea
-              ut
-              est exercitation.</p>
-            <div>
-              <h5 class="border-top border-bottom left-related">Lorem ipsum dolor sit</h5>
-            </div>
-          </div>
-        </div>
-        <div id="column-center" class="col-sm-12 col-md-6 col-lg-4 order-2">
-          <div class="center-article">
+      <div class="container d-flex" id="container-main">
+        <div class="row article-columns justify-content-between d-flex">
+          <div id="columna-izq" class="col-sm-12 col-md-6 col-lg-4 order-1">
             <h6>Lorem ipsum dolor</h6>
-            <div id="center-art-1"></div>
-            <h4>Lorem ipsum</h4>
-            <p>Duis quis exercitation excepteur enim eu dolore anim reprehenderit ad ullamco
-              adipisicing
-              dolore</p>
-            <h5 class="border-top border-bottom center-related">Lorem ipsum dolor sit amet consectetur</h5>
-          </div>
-          <h6 class="border-bottom center-article">more stories</h6>
-          <div class="center-more-article center-article border-bottom">
-            <div class="center-more-image" id="center-more-pic1"></div>
-            <div class="center-more-text">
-              <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
-              Lorem ipsum dolor sit amet consectetur
-            </div>
-          </div>
-          <div class="center-more-article center-article border-bottom">
-            <div class="center-more-image" id="center-more-pic2"></div>
-            <div class="center-more-text">
-              <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
-              Lorem ipsum dolor sit amet consectetur
-            </div>
-          </div>
-          <div class="center-more-article center-article border-bottom">
-            <div class="center-more-image" id="center-more-pic3"></div>
-            <div class="center-more-text">
-              <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
-              Lorem ipsum dolor sit amet consectetur
-            </div>
-          </div>
-          <div class="center-more-article center-article border-bottom">
-            <div class="center-more-image" id="center-more-pic4"></div>
-            <div class="center-more-text">
-              <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
-              Lorem ipsum dolor sit amet consectetur
-            </div>
-          </div>
-          <div class="center-more-article center-article border-bottom">
-            <div class="center-more-image" id="center-more-pic5"></div>
-            <div class="center-more-text">
-              <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
-              Lorem ipsum dolor sit amet consectetur
-            </div>
-          </div>
-          <div class="center-more-article center-article border-bottom" id="center-6">
-            <div class="center-more-image" id="center-more-pic6"></div>
-            <div class="center-more-text">
-              <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
-              Lorem ipsum dolor sit amet consectetur
-            </div>
-          </div>
-          <div class="center-more-article center-article border-bottom" id="center-7">
-            <div class="center-more-image" id="center-more-pic7"></div>
-            <div class="center-more-text">
-              <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
-              Lorem ipsum dolor sit amet consectetur
-            </div>
-          </div>
-          <div class="center-more-article center-article border-bottom" id="center-8">
-            <div class="center-more-image" id="center-more-pic8"></div>
-            <div class="center-more-text">
-              <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
-              Lorem ipsum dolor sit amet consectetur
-            </div>
-          </div>
-          <div class="center-more-article center-article border-bottom">
-            <div class="center-more-image" id="center-more-pic9"></div>
-            <div class="center-more-text">
-              <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
-              Lorem ipsum dolor sit amet consectetur
-            </div>
-          </div>
-        </div>
-        <div id="column-right" class="col-sm-12 col-md-12 col-lg-4 order-3">
-          <h6>Lorem ipsum dolor</h6>
-          <div class="right-article border-bottom">
-            <div class="right-picture"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <div class="right-article border-bottom">
-            <div class="right-picture"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <div class="right-article border-bottom">
-            <div class="right-picture"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <div class="right-article border-bottom">
-            <div class="right-picture"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <div class="right-article border-bottom">
-            <div class="right-picture"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <div class="right-article">
-            <div class="right-picture"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <h6 id="latest-news-right">Lorem ipsum dolorASD</h6>
-          <div class="right-article border-bottom">
-            <div class="right-picture-bottom" id="rb-1"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <div class="right-article border-bottom">
-            <div class="right-picture-bottom" id="rb-2"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <div class="right-article border-bottom">
-            <div class="right-picture-bottom" id="rb-3"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <div class="right-article border-bottom">
-            <div class="right-picture-bottom" id="rb-4"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <div class="right-article border-bottom">
-            <div class="right-picture-bottom" id="rb-5"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <div class="right-article border-bottom">
-            <div class="right-picture-bottom" id="rb-6"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <div class="right-article border-bottom">
-            <div class="right-picture-bottom" id="rb-7"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-          <div class="right-article border-bottom">
-            <div class="right-picture-bottom" id="rb-8"></div>
-            <div class="right-text float-right">Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist inctio</div>
-          </div>
-        </div>
-
-        <div class="in-the-mag-section d-flex flex-row" id="itm-section">
-          <div class="itm-title border-bottom">IN THE MAGAZINE</div>
-          <div class="in-the-mag-art">
-            <div class="itm-pic" id="itm-1"></div>
-            <span class="itm-red-title">FEATURES</span>
-            <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
-          </div>
-          <div class="in-the-mag-art">
-            <div class="itm-pic" id="itm-2"></div>
-            <span class="itm-red-title">FEATURES</span>
-            <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
-          </div>
-          <div class="in-the-mag-art">
-            <div class="itm-pic" id="itm-3"></div>
-            <span class="itm-red-title">FEATURES</span>
-            <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
-          </div>
-          <div class="in-the-mag-art">
-            <div class="itm-pic" id="itm-4"></div>
-            <span class="itm-red-title">FEATURES</span>
-            <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
-          </div>
-          <div class="in-the-mag-art">
-            <div class="itm-pic" id="itm-5"></div>
-            <span class="itm-red-title">FEATURES</span>
-            <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
-          </div>
-          <div class="in-the-mag-art">
-            <div class="itm-pic" id="itm-6"></div>
-            <span class="itm-red-title">FEATURES</span>
-            <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
-          </div>
-          <div class="in-the-mag-art">
-            <div class="itm-pic" id="itm-7"></div>
-            <span class="itm-red-title">FEATURES</span>
-            <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
-          </div>
-          <div class="in-the-mag-art">
-            <div class="itm-pic" id="itm-8"></div>
-            <span class="itm-red-title">FEATURES</span>
-            <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
-          </div>
-        </div>
-
-        <div class="editors-pick-section">
-          <h6>Lorem Editor's Section</h6>
-          <div class="editors-arts-container d-flex justify-content-between">
-            <div class="editors-art">
-              <div id="editor-art-1" class="editor-art-image"></div>
+            <div class="column-left">
+              <div id="left-art-1" class="left-article"></div>
               <h4>Lorem, ipsum</h4>
-              <p>Dolore sint aute non labore anim est et. Voluptate sunt nostrud adipisicing velit eu labore. Aliquip
-                ea
-                ut
-                est exercitation.</p>
+              <p>
+                Dolore sint aute non labore anim est et. Voluptate sunt nostrud
+                adipisicing velit eu labore. Aliquip ea ut est exercitation.
+              </p>
+              <div>
+                <h5 class="border-top border-bottom left-related">
+                  Lorem ipsum dolor sit
+                </h5>
+              </div>
             </div>
-            <div class="editors-art">
-              <div id="editor-art-2" class="editor-art-image"></div>
+            <div class="column-left">
+              <div id="left-art-2" class="left-article"></div>
               <h4>Lorem, ipsum</h4>
-              <p>Dolore sint aute non labore anim est et. Voluptate sunt nostrud adipisicing velit eu labore. Aliquip
-                ea
-                ut
-                est exercitation.</p>
+              <p>
+                Dolore sint aute non labore anim est et. Voluptate sunt nostrud
+                adipisicing velit eu labore. Aliquip ea ut est exercitation.
+              </p>
+              <div>
+                <h5 class="border-top border-bottom left-related">
+                  Lorem ipsum dolor sit
+                </h5>
+              </div>
             </div>
-            <div class="editors-art">
-              <div id="editor-art-3" class="editor-art-image"></div>
+            <div class="column-left">
+              <div id="left-art-3" class="left-article"></div>
               <h4>Lorem, ipsum</h4>
-              <p>Dolore sint aute non labore anim est et. Voluptate sunt nostrud adipisicing velit eu labore. Aliquip
-                ea
-                ut
-                est exercitation.</p>
+              <p>
+                Dolore sint aute non labore anim est et. Voluptate sunt nostrud
+                adipisicing velit eu labore. Aliquip ea ut est exercitation.
+              </p>
+              <div>
+                <h5 class="border-top border-bottom left-related">
+                  Lorem ipsum dolor sit
+                </h5>
+              </div>
             </div>
-            <div class="editors-art">
-              <div id="editor-art-4" class="editor-art-image"></div>
+            <div class="column-left">
+              <div id="left-art-4" class="left-article"></div>
               <h4>Lorem, ipsum</h4>
-              <p>Dolore sint aute non labore anim est et. Voluptate sunt nostrud adipisicing velit eu labore. Aliquip
-                ea
-                ut
-                est exercitation.</p>
+              <p>
+                Dolore sint aute non labore anim est et. Voluptate sunt nostrud
+                adipisicing velit eu labore. Aliquip ea ut est exercitation.
+              </p>
+              <div>
+                <h5 class="border-top border-bottom left-related">
+                  Lorem ipsum dolor sit
+                </h5>
+              </div>
             </div>
-            <div class="editors-art">
-              <div id="editor-art-5" class="editor-art-image"></div>
-              <h4>Lorem, ipsum</h4>
-              <p>Dolore sint aute non labore anim est et. Voluptate sunt nostrud adipisicing velit eu labore. Aliquip
-                ea
-                ut
-                est exercitation.</p>
+          </div>
+          <div id="column-center" class="col-sm-12 col-md-6 col-lg-4 order-2">
+            <div class="center-article">
+              <h6>Lorem ipsum dolor</h6>
+              <div id="center-art-1"></div>
+              <h4>Lorem ipsum</h4>
+              <p>
+                Duis quis exercitation excepteur enim eu dolore anim
+                reprehenderit ad ullamco adipisicing dolore
+              </p>
+              <h5 class="border-top border-bottom center-related">
+                Lorem ipsum dolor sit amet consectetur
+              </h5>
             </div>
-            <div class="editors-art">
-              <div id="editor-art-6" class="editor-art-image"></div>
-              <h4>Lorem, ipsum</h4>
-              <p>Dolore sint aute non labore anim est et. Voluptate sunt nostrud adipisicing velit eu labore. Aliquip
-                ea
-                ut
-                est exercitation.</p>
+            <h6 class="border-bottom center-article">more stories</h6>
+            <div class="center-more-article center-article border-bottom">
+              <div class="center-more-image" id="center-more-pic1"></div>
+              <div class="center-more-text">
+                <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
+                Lorem ipsum dolor sit amet consectetur
+              </div>
             </div>
-            <div class="editors-art">
-              <div id="editor-art-7" class="editor-art-image"></div>
-              <h4>Lorem, ipsum</h4>
-              <p>Dolore sint aute non labore anim est et. Voluptate sunt nostrud adipisicing velit eu labore. Aliquip
-                ea
-                ut
-                est exercitation.</p>
+            <div class="center-more-article center-article border-bottom">
+              <div class="center-more-image" id="center-more-pic2"></div>
+              <div class="center-more-text">
+                <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
+                Lorem ipsum dolor sit amet consectetur
+              </div>
             </div>
-            <div class="editors-art">
-              <div id="editor-art-8" class="editor-art-image"></div>
-              <h4>Lorem, ipsum</h4>
-              <p>Dolore sint aute non labore anim est et. Voluptate sunt nostrud adipisicing velit eu labore. Aliquip
-                ea
-                ut
-                est exercitation.</p>
+            <div class="center-more-article center-article border-bottom">
+              <div class="center-more-image" id="center-more-pic3"></div>
+              <div class="center-more-text">
+                <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
+                Lorem ipsum dolor sit amet consectetur
+              </div>
+            </div>
+            <div class="center-more-article center-article border-bottom">
+              <div class="center-more-image" id="center-more-pic4"></div>
+              <div class="center-more-text">
+                <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
+                Lorem ipsum dolor sit amet consectetur
+              </div>
+            </div>
+            <div class="center-more-article center-article border-bottom">
+              <div class="center-more-image" id="center-more-pic5"></div>
+              <div class="center-more-text">
+                <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
+                Lorem ipsum dolor sit amet consectetur
+              </div>
+            </div>
+            <div
+              class="center-more-article center-article border-bottom"
+              id="center-6"
+            >
+              <div class="center-more-image" id="center-more-pic6"></div>
+              <div class="center-more-text">
+                <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
+                Lorem ipsum dolor sit amet consectetur
+              </div>
+            </div>
+            <div
+              class="center-more-article center-article border-bottom"
+              id="center-7"
+            >
+              <div class="center-more-image" id="center-more-pic7"></div>
+              <div class="center-more-text">
+                <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
+                Lorem ipsum dolor sit amet consectetur
+              </div>
+            </div>
+            <div
+              class="center-more-article center-article border-bottom"
+              id="center-8"
+            >
+              <div class="center-more-image" id="center-more-pic8"></div>
+              <div class="center-more-text">
+                <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
+                Lorem ipsum dolor sit amet consectetur
+              </div>
+            </div>
+            <div class="center-more-article center-article border-bottom">
+              <div class="center-more-image" id="center-more-pic9"></div>
+              <div class="center-more-text">
+                <h5>Magna commodo enim occaecat dolore laboris in aliqua</h5>
+                Lorem ipsum dolor sit amet consectetur
+              </div>
+            </div>
+          </div>
+          <div id="column-right" class="col-sm-12 col-md-12 col-lg-4 order-3">
+            <h6>Lorem ipsum dolor</h6>
+            <div class="right-article border-bottom">
+              <div class="right-picture"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <div class="right-article border-bottom">
+              <div class="right-picture"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <div class="right-article border-bottom">
+              <div class="right-picture"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <div class="right-article border-bottom">
+              <div class="right-picture"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <div class="right-article border-bottom">
+              <div class="right-picture"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <div class="right-article">
+              <div class="right-picture"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <h6 id="latest-news-right">Lorem ipsum dolorASD</h6>
+            <div class="right-article border-bottom">
+              <div class="right-picture-bottom" id="rb-1"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <div class="right-article border-bottom">
+              <div class="right-picture-bottom" id="rb-2"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <div class="right-article border-bottom">
+              <div class="right-picture-bottom" id="rb-3"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <div class="right-article border-bottom">
+              <div class="right-picture-bottom" id="rb-4"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <div class="right-article border-bottom">
+              <div class="right-picture-bottom" id="rb-5"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <div class="right-article border-bottom">
+              <div class="right-picture-bottom" id="rb-6"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <div class="right-article border-bottom">
+              <div class="right-picture-bottom" id="rb-7"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
+            </div>
+            <div class="right-article border-bottom">
+              <div class="right-picture-bottom" id="rb-8"></div>
+              <div class="right-text float-right">
+                Lorem ipsum dolor sit amet, cons ectetur adipi sicing elit dist
+                inctio
+              </div>
             </div>
           </div>
 
-          <div id="feat-slides">
-            <h6 class="border-bottom">Occecat Ipsum Slideshows</h6>
-            <div class="feat-content d-flex flex-row justify-content-between">
-              <div class="feat-article">
-                <div id="feat-art-1" class="feat-art-image"></div>
-                <h4>Duis proident cillum reprehenderit adipisicing ea nostrud duis proident</h4>
+          <div class="in-the-mag-section d-flex flex-row" id="itm-section">
+            <div class="itm-title border-bottom">IN THE MAGAZINE</div>
+            <div class="in-the-mag-art">
+              <div class="itm-pic" id="itm-1"></div>
+              <span class="itm-red-title">FEATURES</span>
+              <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
+            </div>
+            <div class="in-the-mag-art">
+              <div class="itm-pic" id="itm-2"></div>
+              <span class="itm-red-title">FEATURES</span>
+              <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
+            </div>
+            <div class="in-the-mag-art">
+              <div class="itm-pic" id="itm-3"></div>
+              <span class="itm-red-title">FEATURES</span>
+              <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
+            </div>
+            <div class="in-the-mag-art">
+              <div class="itm-pic" id="itm-4"></div>
+              <span class="itm-red-title">FEATURES</span>
+              <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
+            </div>
+            <div class="in-the-mag-art">
+              <div class="itm-pic" id="itm-5"></div>
+              <span class="itm-red-title">FEATURES</span>
+              <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
+            </div>
+            <div class="in-the-mag-art">
+              <div class="itm-pic" id="itm-6"></div>
+              <span class="itm-red-title">FEATURES</span>
+              <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
+            </div>
+            <div class="in-the-mag-art">
+              <div class="itm-pic" id="itm-7"></div>
+              <span class="itm-red-title">FEATURES</span>
+              <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
+            </div>
+            <div class="in-the-mag-art">
+              <div class="itm-pic" id="itm-8"></div>
+              <span class="itm-red-title">FEATURES</span>
+              <h5 class="itm-black-title">Ipsum dolor sit amet consectetur</h5>
+            </div>
+          </div>
+
+          <div class="editors-pick-section">
+            <h6>Lorem Editor's Section</h6>
+            <div class="editors-arts-container d-flex justify-content-between">
+              <div class="editors-art">
+                <div id="editor-art-1" class="editor-art-image"></div>
+                <h4>Lorem, ipsum</h4>
+                <p>
+                  Dolore sint aute non labore anim est et. Voluptate sunt
+                  nostrud adipisicing velit eu labore. Aliquip ea ut est
+                  exercitation.
+                </p>
               </div>
-              <div class="feat-article">
-                <div id="feat-art-2" class="feat-art-image"></div>
-                <h4>Duis proident cillum reprehenderit adipisicing ea nostrud duis proident</h4>
+              <div class="editors-art">
+                <div id="editor-art-2" class="editor-art-image"></div>
+                <h4>Lorem, ipsum</h4>
+                <p>
+                  Dolore sint aute non labore anim est et. Voluptate sunt
+                  nostrud adipisicing velit eu labore. Aliquip ea ut est
+                  exercitation.
+                </p>
               </div>
-              <div class="feat-article">
-                <div id="feat-art-3" class="feat-art-image"></div>
-                <h4>Duis proident cillum reprehenderit adipisicing ea nostrud duis proident</h4>
+              <div class="editors-art">
+                <div id="editor-art-3" class="editor-art-image"></div>
+                <h4>Lorem, ipsum</h4>
+                <p>
+                  Dolore sint aute non labore anim est et. Voluptate sunt
+                  nostrud adipisicing velit eu labore. Aliquip ea ut est
+                  exercitation.
+                </p>
               </div>
-              <div class="feat-article">
-                <div id="feat-art-4" class="feat-art-image"></div>
-                <h4>Duis proident cillum reprehenderit adipisicing ea nostrud duis proident</h4>
+              <div class="editors-art">
+                <div id="editor-art-4" class="editor-art-image"></div>
+                <h4>Lorem, ipsum</h4>
+                <p>
+                  Dolore sint aute non labore anim est et. Voluptate sunt
+                  nostrud adipisicing velit eu labore. Aliquip ea ut est
+                  exercitation.
+                </p>
               </div>
-              <div class="feat-article">
-                <div id="feat-art-5" class="feat-art-image"></div>
-                <h4>Duis proident cillum reprehenderit adipisicing ea nostrud duis proident</h4>
+              <div class="editors-art">
+                <div id="editor-art-5" class="editor-art-image"></div>
+                <h4>Lorem, ipsum</h4>
+                <p>
+                  Dolore sint aute non labore anim est et. Voluptate sunt
+                  nostrud adipisicing velit eu labore. Aliquip ea ut est
+                  exercitation.
+                </p>
               </div>
-              <div class="feat-article">
-                <div id="feat-art-6" class="feat-art-image"></div>
-                <h4>Duis proident cillum reprehenderit adipisicing ea nostrud duis proident</h4>
+              <div class="editors-art">
+                <div id="editor-art-6" class="editor-art-image"></div>
+                <h4>Lorem, ipsum</h4>
+                <p>
+                  Dolore sint aute non labore anim est et. Voluptate sunt
+                  nostrud adipisicing velit eu labore. Aliquip ea ut est
+                  exercitation.
+                </p>
+              </div>
+              <div class="editors-art">
+                <div id="editor-art-7" class="editor-art-image"></div>
+                <h4>Lorem, ipsum</h4>
+                <p>
+                  Dolore sint aute non labore anim est et. Voluptate sunt
+                  nostrud adipisicing velit eu labore. Aliquip ea ut est
+                  exercitation.
+                </p>
+              </div>
+              <div class="editors-art">
+                <div id="editor-art-8" class="editor-art-image"></div>
+                <h4>Lorem, ipsum</h4>
+                <p>
+                  Dolore sint aute non labore anim est et. Voluptate sunt
+                  nostrud adipisicing velit eu labore. Aliquip ea ut est
+                  exercitation.
+                </p>
+              </div>
+            </div>
+
+            <div id="feat-slides">
+              <h6 class="border-bottom">Occecat Ipsum Slideshows</h6>
+              <div class="feat-content d-flex flex-row justify-content-between">
+                <div class="feat-article">
+                  <div id="feat-art-1" class="feat-art-image"></div>
+                  <h4>
+                    Duis proident cillum reprehenderit adipisicing ea nostrud
+                    duis proident
+                  </h4>
+                </div>
+                <div class="feat-article">
+                  <div id="feat-art-2" class="feat-art-image"></div>
+                  <h4>
+                    Duis proident cillum reprehenderit adipisicing ea nostrud
+                    duis proident
+                  </h4>
+                </div>
+                <div class="feat-article">
+                  <div id="feat-art-3" class="feat-art-image"></div>
+                  <h4>
+                    Duis proident cillum reprehenderit adipisicing ea nostrud
+                    duis proident
+                  </h4>
+                </div>
+                <div class="feat-article">
+                  <div id="feat-art-4" class="feat-art-image"></div>
+                  <h4>
+                    Duis proident cillum reprehenderit adipisicing ea nostrud
+                    duis proident
+                  </h4>
+                </div>
+                <div class="feat-article">
+                  <div id="feat-art-5" class="feat-art-image"></div>
+                  <h4>
+                    Duis proident cillum reprehenderit adipisicing ea nostrud
+                    duis proident
+                  </h4>
+                </div>
+                <div class="feat-article">
+                  <div id="feat-art-6" class="feat-art-image"></div>
+                  <h4>
+                    Duis proident cillum reprehenderit adipisicing ea nostrud
+                    duis proident
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="others-section border-top ">
+              <h6>Cupla Dis</h6>
+
+              <div class="others-container">
+                <div class="others-art d-flex justify-content-between">
+                  <div class="others-article d-flex flex-column">
+                    <div class="others-img-1 others-img"></div>
+                    <h4>Veniam laboris ipsum incididunt magna Lorem</h4>
+                  </div>
+
+                  <div class="others-article d-flex flex-column">
+                    <div class="others-img-2 others-img"></div>
+                    <h4>
+                      Nulla aute commodo et officia fugiat est quis sit ad nulla
+                      qui ex
+                    </h4>
+                  </div>
+
+                  <div
+                    class="others-article d-flex flex-column others-art-side"
+                  >
+                    <div class="others-side-art d-flex border-bottom">
+                      <div class="other-side-img1 side-image"></div>
+                      <h5 class="other-side-text">Ea eiusmod occaecat quis</h5>
+                    </div>
+                    <div class="others-side-art d-flex border-bottom">
+                      <div class="side-image other-side-img2"></div>
+                      <h5 class="other-side-text">Cillum tempor dolor esse</h5>
+                    </div>
+                    <div class="others-side-art d-flex">
+                      <div class="side-image other-side-img3"></div>
+                      <h5 class="other-side-text">In proident eu irure</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="others-section border-top ">
+              <h6>Cupla Dis</h6>
+
+              <div class="others-container">
+                <div class="others-art d-flex justify-content-between">
+                  <div class="others-article d-flex flex-column">
+                    <div class="others-img-1 others-img"></div>
+                    <h4>Veniam laboris ipsum incididunt magna Lorem</h4>
+                  </div>
+
+                  <div class="others-article d-flex flex-column">
+                    <div class="others-img-2 others-img"></div>
+                    <h4>
+                      Nulla aute commodo et officia fugiat est quis sit ad nulla
+                      qui ex
+                    </h4>
+                  </div>
+
+                  <div
+                    class="others-article d-flex flex-column others-art-side"
+                  >
+                    <div class="others-side-art d-flex border-bottom">
+                      <div class="other-side-img1 side-image"></div>
+                      <h5 class="other-side-text">Ea eiusmod occaecat quis</h5>
+                    </div>
+                    <div class="others-side-art d-flex border-bottom">
+                      <div class="side-image other-side-img2"></div>
+                      <h5 class="other-side-text">Cillum tempor dolor esse</h5>
+                    </div>
+                    <div class="others-side-art d-flex">
+                      <div class="side-image other-side-img3"></div>
+                      <h5 class="other-side-text">In proident eu irure</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="others-section border-top ">
+              <h6>Cupla Dis</h6>
+
+              <div class="others-container">
+                <div class="others-art d-flex justify-content-between">
+                  <div class="others-article d-flex flex-column">
+                    <div class="others-img-1 others-img"></div>
+                    <h4>Veniam laboris ipsum incididunt magna Lorem</h4>
+                  </div>
+
+                  <div class="others-article d-flex flex-column">
+                    <div class="others-img-2 others-img"></div>
+                    <h4>
+                      Nulla aute commodo et officia fugiat est quis sit ad nulla
+                      qui ex
+                    </h4>
+                  </div>
+
+                  <div
+                    class="others-article d-flex flex-column others-art-side"
+                  >
+                    <div class="others-side-art d-flex border-bottom">
+                      <div class="other-side-img1 side-image"></div>
+                      <h5 class="other-side-text">Ea eiusmod occaecat quis</h5>
+                    </div>
+                    <div class="others-side-art d-flex border-bottom">
+                      <div class="side-image other-side-img2"></div>
+                      <h5 class="other-side-text">Cillum tempor dolor esse</h5>
+                    </div>
+                    <div class="others-side-art d-flex">
+                      <div class="side-image other-side-img3"></div>
+                      <h5 class="other-side-text">In proident eu irure</h5>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <footer class="footer bg-white">
-    <div class="col-md-12 footer-box d-inline-flex" id="footer-box">
-      <div class="left mr-auto" id="bottom-logo">
-        <div class="brand">Newsweek</div>
-        <p id="footer-p">© 2019 NEWSWEEK LLC</p>
+    <footer class="footer bg-white">
+      <div class="col-md-12 footer-box d-inline-flex" id="footer-box">
+        <div class="left mr-auto" id="bottom-logo">
+          <div class="brand">Newsweek</div>
+          <p id="footer-p">© 2019 NEWSWEEK LLC</p>
+        </div>
+
+        <nav class="nav footer-social-nav align-items-center">
+          <p class="nav-link">
+            <i class="fab fa-facebook fa-2x" id="first"></i>
+          </p>
+          <p class="nav-link"><i class="fab fa-twitter fa-2x"></i></p>
+          <p class="nav-link"><i class="fab fa-google-plus-g fa-2x"></i></p>
+          <p class="nav-link"><i class="fab fa-instagram fa-2x"></i></p>
+          <p class="nav-link"><i class="fab fa-tumblr fa-2x"></i></p>
+          <p class="nav-link"><i class="fab fa-linkedin-in fa-2x"></i></p>
+        </nav>
       </div>
-
-      <nav class="nav footer-social-nav align-items-center">
-        <p class="nav-link"><i class="fab fa-facebook fa-2x" id="first"></i></p>
-        <p class="nav-link"><i class="fab fa-twitter fa-2x"></i></p>
-        <p class="nav-link"><i class="fab fa-google-plus-g fa-2x"></i></p>
-        <p class="nav-link"><i class="fab fa-instagram fa-2x"></i></p>
-        <p class="nav-link"><i class="fab fa-tumblr fa-2x"></i></p>
-        <p class="nav-link"><i class="fab fa-linkedin-in fa-2x"></i></p>
-      </nav>
-    </div>
-    <div id="site-map" class="d-inline-flex">
-      <nav class="nav footer-nav-left mr-auto">
-        <p class="nav-link separator">About Us</p>
-        <p class="nav-link separator">Corrections</p>
-        <p class="nav-link separator">Contact Us</p>
-        <p class="nav-link separator">Newsweek Media Group</p>
-        <p class="nav-link separator">Travel</p>
-        <p class="nav-link separator">Advertise</p>
-        <p class="nav-link separator">Copyright</p>
-        <p class="nav-link separator">Terms & Conditions</p>
-        <p class="nav-link separator">Privacy Policy</p>
-        <p class="nav-link separator">Cookie Policy</p>
-        <p class="nav-link separator">Terms of Sale</p>
-        <p class="nav-link">Archive</p>
-      </nav>
-      <nav class="nav footer-nav-right">
-        <p class="nav-link bold"><strong>Editions: </strong></p>
-        <p class="nav-link separator">U.S. Edition</p>
-        <p class="nav-link separator">Contact Us</p>
-        <p class="nav-link separator">Middle East</p>
-        <p class="nav-link separator">日本</p>
-        <p class="nav-link separator">한국</p>
-        <p class="nav-link separator">Pakistan</p>
-        <p class="nav-link separator">Terms & Conditions</p>
-        <p class="nav-link separator">Polska</p>
-        <p class="nav-link">Romania</p>
-      </nav>
-    </div>
-  </footer>
-</body>
-
+      <div id="site-map" class="d-inline-flex">
+        <nav class="nav footer-nav-left mr-auto">
+          <p class="nav-link separator">About Us</p>
+          <p class="nav-link separator">Corrections</p>
+          <p class="nav-link separator">Contact Us</p>
+          <p class="nav-link separator">Newsweek Media Group</p>
+          <p class="nav-link separator">Travel</p>
+          <p class="nav-link separator">Advertise</p>
+          <p class="nav-link separator">Copyright</p>
+          <p class="nav-link separator">Terms & Conditions</p>
+          <p class="nav-link separator">Privacy Policy</p>
+          <p class="nav-link separator">Cookie Policy</p>
+          <p class="nav-link separator">Terms of Sale</p>
+          <p class="nav-link">Archive</p>
+        </nav>
+        <nav class="nav footer-nav-right">
+          <p class="nav-link bold"><strong>Editions: </strong></p>
+          <p class="nav-link separator">U.S. Edition</p>
+          <p class="nav-link separator">Contact Us</p>
+          <p class="nav-link separator">Middle East</p>
+          <p class="nav-link separator">日本</p>
+          <p class="nav-link separator">한국</p>
+          <p class="nav-link separator">Pakistan</p>
+          <p class="nav-link separator">Terms & Conditions</p>
+          <p class="nav-link separator">Polska</p>
+          <p class="nav-link">Romania</p>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -547,6 +547,98 @@
    background-position: center;
  }
 
+ /* ==================== OTHERS ART ===================*/
+
+ .others-section {
+   width: 100%;
+   margin-top: 30px;
+ }
+
+ .others-section h6 {
+   width: 100%;
+   margin-top: 30px;
+   color: #f82011;
+   text-align: left;
+ }
+
+ .others-art {
+   flex-flow: row wrap;
+ }
+
+ .others-article {
+   margin-top: 10px;
+   width: 31%;
+   height: auto;
+   padding-bottom: 10px;
+ }
+
+ .others-article h4 {
+   font-size: 1.1em;
+ }
+
+ .others-img {
+   width: 100%;
+   height: auto;
+   max-width: 397px;
+   min-width: 226px;
+   min-height: 257px;
+   max-height: 150px;
+ }
+
+ .others-article div:nth-child(2) {
+   margin-top: 10px;
+ }
+
+ .others-article div:nth-child(3) {
+   margin-top: 10px;
+ }
+
+ .others-img-1 {
+   background: url(../img/ots3.jpg);
+   background-size: cover;
+   background-position: center;
+ }
+
+ .others-img-2 {
+   background: url(../img/ot2.jpg);
+   background-size: cover;
+   background-position: center;
+ }
+
+ .other-side-art {
+   flex-flow: row nowrap;
+   align-content: space-between;
+ }
+
+ .others-art-side {
+   justify-content: space-between;
+ }
+
+ .side-image {
+   margin-right: 15px;
+   margin-bottom: 15px;
+   min-width: 135px;
+   height: 90px;
+ }
+
+ .other-side-img1 {
+   background: url(../img/ots1.jpg);
+   background-size: cover;
+   background-position: center;
+ }
+
+ .other-side-img2 {
+   background: url(../img/ots2.jpg);
+   background-size: cover;
+   background-position: center;
+ }
+
+ .other-side-img3 {
+   background: url(../img/ot1.jpg);
+   background-size: cover;
+   background-position: center;
+ }
+
  /* ==================== FOOTER ===================*/
 
  .footer {

@@ -252,6 +252,29 @@
     max-height: 247px;
     margin: 10px 0;
   }
+  /* ============= OTHERS STYLES ===========*/
+
+  .others-art {
+    flex-flow: column wrap;
+  }
+ 
+  .others-article {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .others-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    min-height: 491px;
+    min-width: 100%;
+    max-height: 257px;
+  }
+ 
+ 
   /* ============= FOOTER STYLES ===========*/
   #footer-box {
     display: flex;
