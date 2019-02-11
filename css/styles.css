@@ -23,7 +23,14 @@
    width: 396px;
    height: 82px;
  }
-
+ .n-title .icon-n {
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(../img/n-logo.png) center/contain no-repeat;
+  margin-right: 10px;
+  background: #000;
+}
  #subscribe-button {
    color: #f82011;
  }
@@ -45,6 +52,10 @@
    font-size: 1.2em;
    color: black !important;
    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+ }
+
+ #sections-nav li:nth-child(4) {
+   white-space: nowrap;
  }
 
  /* =======================CONTAINER COLUMNS =========================== */
@@ -556,7 +567,7 @@
  /* ==================== OTHERS ART ===================*/
 
  .others-section {
-   order:7;
+   order: 7;
    width: 100%;
    margin-top: 30px;
  }
