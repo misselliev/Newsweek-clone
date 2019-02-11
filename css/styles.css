@@ -143,6 +143,10 @@
 
  .center-more-text {
    margin-left: 15px;
+   color: #333;
+ }
+ .center-more-text h5{
+   margin-bottom: 0;
  }
 
  .center-more-image {
@@ -407,6 +411,8 @@
  .editors-art {
    width: 24%;
    height: auto;
+   color: #333;
+
  }
 
  .editor-art-image {
@@ -570,6 +576,7 @@
    order: 7;
    width: 100%;
    margin-top: 30px;
+   color: #333;
  }
 
  .others-section h6 {
