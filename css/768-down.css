@@ -1,0 +1,321 @@
+@media only screen and (max-width: 768px) {
+  #header {
+    max-width: 100vw;
+    height: 35px !important;
+    margin: 0 auto;
+    align-items: flex-start;
+  }
+  #date-top {
+    display: none;
+  }
+  #logo {
+    display: flex;
+    align-self: center;
+    position: absolute;
+    background: url(../img/newsweek.png);
+    background-size: cover;
+    width: 132px;
+    height: 24px;
+  }
+  #topbar {
+    width: 100%;
+    height: 40px !important;
+    margin: 0 auto;
+    align-items: flex-start;
+    background: #f82011;
+  }
+  #dropdown-top {
+    display: inline-block;
+    padding: 0 6px;
+  }
+  #subscribe-button {
+    padding: 0;
+    font-size: .9em;
+  }
+  #signin-button {
+    padding: 0 6px;
+    font-size: .9em;
+  }
+  #container-main {
+    max-width: 98vw;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .column-left {
+    padding: 0;
+  }
+  .left-article {
+    max-height: 100%;
+    min-width: 246px;
+  }
+  #left-art-1 {
+    width: 100%;
+    height: 492px;
+    background: url(../img/picture-1.jpg);
+    background-size: cover;
+  }
+  #left-art-2 {
+    width: 100%;
+    height: 492px;
+    background: url(../img/ele4.jpeg);
+    background-size: cover;
+  }
+  #left-art-3 {
+    width: 100%;
+    height: 492px;
+    background: url(../img/ele3.jpeg);
+    background-size: cover;
+  }
+  #left-art-4 {
+    width: 100%;
+    height: 492px;
+    background: url(../img/ele2.jpeg);
+    background-size: cover;
+  }
+  #column-center {
+    padding: 0;
+    margin: 0;
+    order: 1;
+    display: flex;
+    width: 98vw;
+  }
+  .center-article {
+    margin: 0 5px;
+  }
+  #center-art-1 {
+    background: url(../img/center.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 492px;
+    max-height: 393px;
+    min-width: 370px;
+    min-height: 247px;
+  }
+  #center-more-pic1 {
+    width: 135px;
+    height: 90px;
+    background: url(../img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+  #center-more-pic2 {
+    width: 135px;
+    height: 90px;
+    background: url(../img/ce1.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  #center-more-pic3 {
+    width: 135px;
+    height: 90px;
+    background: url(../img/ce2.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+  #center-more-pic4 {
+    width: 135px;
+    height: 90px;
+    background: url(../img/ce3.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+  #center-more-pic5 {
+    width: 135px;
+    height: 90px;
+    background: url(../img/ce5.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+  #center-more-pic6 {
+    width: 135px;
+    height: 90px;
+    background: url(../img/ce4.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+  #center-more-pic7 {
+    width: 135px;
+    height: 90px;
+    background: url(../img/ce6.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+  #center-more-pic8 {
+    width: 135px;
+    height: 90px;
+    background: url(../img/ce7.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+  #center-more-pic9 {
+    width: 135px;
+    height: 90px;
+    background: url(../img/ce9.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+  .center-more-text {
+    margin-left: 15px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #columna-izq {
+    display: flex;
+    flex-flow: column nowrap;
+    order: 1;
+    width: 100vw;
+  }
+  #column-right {
+    padding-left: 15px;
+  }
+  .right-picture-bottom {
+    width: 258px;
+    height: 172px;
+  }
+  /* ==================================== IN THE MAGAZINE ==================================== */
+  #itm-section {
+    order: 3;
+    justify-content: space-between;
+    flex-flow: column nowrap !important;
+    width: 100%;
+  }
+  .in-the-mag-art {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .itm-pic {
+    width: 100%;
+    height: 491px;
+    min-height: 491px;
+    max-height: 247px;
+    margin: 10px 0;
+  }
+  #itm-1 {
+    background: url(../img/mag1.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  #itm-2 {
+    background: url(../img/mag2.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  #itm-3 {
+    background: url(../img/mag3.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  #itm-4 {
+    background: url(../img/mag4.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  #itm-5 {
+    background: url(../img/mag5.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  #itm-6 {
+    background: url(../img/mag6.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  #itm-7 {
+    background: url(../img/mag7.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #itm-8 {
+    background: url(../img/mag8.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  /* ================= EDITOR'S PICK SECTION ============ */
+  .editors-art {
+    width: 100%;
+    height: auto;
+  }
+  .editor-art-image {
+    max-width: 737px;
+    min-height: 491px;
+    margin: 10px 0;
+  }
+  /* ==================== SLIDES SECTION =================== */
+  .feat-article {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .feat-art-image {
+    width: 100%;
+    height: 491px;
+    min-height: 491px;
+    max-height: 247px;
+    margin: 10px 0;
+  }
+  /* ============= OTHERS STYLES ===========*/
+  .others-art {
+    flex-flow: column wrap;
+  }
+  .others-article {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .others-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    min-height: 491px;
+    min-width: 100%;
+    max-height: 257px;
+  }
+  /* ============= FOOTER STYLES ===========*/
+  #footer-box {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #first {
+    padding-left: 0;
+  }
+  #bottom-logo {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .brand {
+    display: flex;
+  }
+  #footer-p {
+    display: flex;
+    height: .8em;
+    align-self: flex-end;
+  }
+  .footer-social-nav {
+    display: flex;
+  }
+  .nav-link, i {
+    padding: 0;
+  }
+  #site-map {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .footer-nav-left {
+    display: flex;
+  }
+  .footer-nav-right {
+    display: flex;
+  }
+}
