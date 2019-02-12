@@ -14,7 +14,7 @@ You can look at the original site [here](https://www.newsweek.com/).
 
 ## Live demo
 
-You can visit our project live [here](https://rawcdn.githack.com/) //to be updated
+You can visit our project live [here](https://misselliev.github.io/Newsweek-clone/) 
 
 ## Useful links
 Taken from [The  Odin  Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap?ref=lnav).
